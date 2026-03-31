@@ -11,6 +11,7 @@ public class atv6 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Digite o seu salario abaixo: ");
         double valorQualquer = sc.nextDouble();
-        double valorQual
+        valorQualquer *= 1.05;
+        System.out.println("Valor Reajustado 5%: " + valorQualquer);
     }
 }
